@@ -1,0 +1,4 @@
+is_divisible <- function(first_num,second_num) {
+    divide <- first_num/second_num
+    return(first_num - (divide * second_num) == 0)
+    }
