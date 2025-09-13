@@ -1,0 +1,11 @@
+find_longer_vector <- function(vec_one,vec_two) {
+    length_1 <- length(vec_one)
+    length_2 <- length(vec_two)
+    if (length_1 > length_2) {
+        return('First')
+     } else if (length_2 > length_1) {
+           return ('Second') 
+     }   else {
+            return ('Equal Length') 
+        }
+    }
